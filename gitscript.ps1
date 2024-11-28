@@ -18,7 +18,7 @@ function Initialize-GitRepository {
     git add .
     if ($LASTEXITCODE -ne 0) { Write-Error "Failed to add files."; return }
 
-    git commit -m "Initial commit"
+    git commit -m "Initial commit (initialized using https://github.com/ZeroSTF/GitScript)"
     if ($LASTEXITCODE -ne 0) { Write-Error "Failed to commit files."; return }
 
     git remote add origin $RemoteUrl
