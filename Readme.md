@@ -17,12 +17,12 @@ A simple PowerShell script to initialize a Git repository, add files, commit, se
 Run the script from the project folder in PowerShell:
 
 ```powershell
-gitscript.ps1
+gitscript
 ```
 Or run it from any folder, and add the project path as an argument (also adding the repository URL as an argument is optional):
 
 ```powershell
-gitscript.ps1 "C:\Path\To\Your\Folder" "https://github.com/your-username/your-repo.git"
+gitscript "C:\Path\To\Your\Folder" "https://github.com/your-username/your-repo.git"
 ```
 
 
